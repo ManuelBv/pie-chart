@@ -1,0 +1,26 @@
+
+.main_container {
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+.html_chart, .canvas_chart {
+    width: 100%;
+    position: relative;
+    border-bottom: solid 1px #ccc;
+    margin: 20px 0;
+    padding: 10px;
+}
