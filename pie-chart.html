@@ -4,21 +4,29 @@
 <div class="main_container">
     <h1>Pie chart</h1>
 
-    <h2>HTML pie-chart </h2>
+    <h2>HTML pie-chart (1 slice, % A vs B ) </h2>
     <div class="html_chart">
+        <div class="pie">
 
+        </div>
+
+        <div class="choose_angles">
+            <div class="legend">
+                A <span class="first">0</span>% vs B <span class="second">100</span>%
+            </div>
+            <input type="range" min="0" max="100" step="1" value="0">
+            <input type="number" min="0" max="100" step="1" value="0">
+        </div>
     </div>
 
     <h2>Canvas pie-chart </h2>
-    <div>
-
-    </div class="canvas_chart">
-
-    <canvas></canvas>
+    <div class="canvas_chart">
+        <canvas></canvas>
+    </div>
 </div>
 
 
 
 
-
+<script src="js/lib/vendor/jquery.min.js"></script>
 <script src="main.js"></script>
